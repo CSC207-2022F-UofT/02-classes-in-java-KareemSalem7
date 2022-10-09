@@ -79,10 +79,10 @@ public class Silly implements Comparable<Silly>{
      *       strings (e.g. this.name = [first string] + [second string]).
      *       Make sure you document this method!
      */
-     public Silly(String name1, String name2) {
-         // set name attribute to the concatenation of name1 and name2
-         this.name = name1 + name2;
-     }
+    public Silly(String name1, String name2) {
+        // set name attribute to the concatenation of name1 and name2
+        this.name = name1 + name2;
+    }
 
 
 
@@ -213,4 +213,3 @@ public class Silly implements Comparable<Silly>{
      *                accordingly.
      */
 }
-
